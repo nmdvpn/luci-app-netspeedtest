@@ -44,6 +44,8 @@ jobs:
         sdk:
           - openwrt-21.02
           - openwrt-22.03
+          - openwrt-23.05
+          - openwrt-24.10
     steps:
       - uses: actions/checkout@main
         with:
